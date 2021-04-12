@@ -10,7 +10,7 @@ function ChatSection() {
     <motion.div
       initial={{ width: '380px', height: '0px' }}
       animate={{ height: minifyScreen ? '48px' : '500px' }}
-      className='bg-gray-50 rounded-3xl fixed bottom-5 right-5  shadow-2xl overflow-hidden flex flex-col'
+      className='bg-gray-50 sm:hidden rounded-3xl fixed bottom-5 right-5  shadow-2xl overflow-hidden flex flex-col'
     >
       <div className='bg-white px-2 py-1 rounded-b-3xl flex justify-between items-center shadow'>
         <div className='flex items-center gap-4'>

@@ -8,8 +8,10 @@ import NoScrollBar from '../../noScrollBar.module.css'
 function StoriesSection({ stories }: { stories: IStory[] }) {
   const scrollableDivRef = useRef<HTMLDivElement>(null)
   return (
-    <div className={`${NoScrollBar.noScrollBar} relative flex items-center`}>
-      <div className='absolute -left-8 z-10 mt-14 '>
+    <div
+      className={`${NoScrollBar.noScrollBar} w-full relative flex items-center`}
+    >
+      <div className='absolute -left-5 z-10 mt-14 '>
         <ButtonIconCircular
           icon='./icon/arrow_left_blue.svg'
           size='14'
@@ -24,7 +26,7 @@ function StoriesSection({ stories }: { stories: IStory[] }) {
         />
       </div>
 
-      <div className='absolute -right-8 z-10 mt-14 '>
+      <div className='absolute -right-5 z-10 mt-14 '>
         <ButtonIconCircular
           icon='./icon/arrow_rigth_blue.svg'
           size='14'

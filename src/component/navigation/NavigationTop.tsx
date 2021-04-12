@@ -35,12 +35,11 @@ function NavigationTop() {
       />
       <div className='absolute right-4 flex gap-4 items-center'>
         <input
-          className='bg-gray-50 px-4 py-2 rounded-2xl outline-none w-72 text-xs'
+          className='bg-gray-50  xl:hidden px-4 py-2 rounded-2xl outline-none w-72 text-xs'
           type='text'
           placeholder='Add your comment'
         />
         <CircularAvatar img='./img/users/user_1.png' size='10' />
-        <img src='./icon/cog.svg' alt='' />
       </div>
     </div>
   )
